@@ -1,0 +1,121 @@
+1. what are the 3 fundamentals of AWS pricing?
+ans: a. Pay as you go
+     b. save when you commit
+     c. pay less by using more
+	
+	a.pay as you go: Pay-as-you-go allows you to easily adapt to changing 
+	  business needs without overcommitting budgets and improving your 
+	  responsiveness to changes. With a pay-as-you-go model, you can adapt 
+	  your business depending on need and not on forecasts, reducing the risk of 
+	  overprovisioning or missing capacity.
+	
+	b.save when you commit
+	  For AWS Compute and AWS Machine Learning, Savings Plans offer savings 
+	  over On-Demand in exchange for a commitment to use a specific amount 
+	  (measured in $/hour) of an AWS service or a category of services, 
+	  for a one- or three-year period.
+
+	c.Pay less by using more
+	  With AWS, you can get volume based discounts and realize important 
+	  savings as your usage increases. For services such as S3, pricing is 
+	  tiered, meaning the more you use, the less you pay per GB. AWS also gives you 
+	  options to acquire services that help you address your business needs.
+
+2. what are regional and global services?
+ans:
+
+3. what is region?
+ans: AWS has the concept of a Region, which is a physical location around the world 
+     where we cluster data centers. We call each group of logical data centers an 
+     Availability Zone. Each AWS Region consists of multiple, isolated, and physically 
+     separate AZs within a geographic area.
+
+4. what is Availablity zone?
+ans: Availability zones (AZs) are isolated locations within data center regions from which
+     public cloud services originate and operate. Regions are geographic locations in which 
+     public cloud service providers' data centers reside.
+     Availability zones are highly available data centers within each AWS region. A region 
+     represents a separate geographic area. Each availability zone has independent power, 
+     cooling and networking.
+
+5. what is points of presence?
+ans: The POPs are used for both AWS CloudFront to deliver content to end users at high speeds, 
+     and Lambda@Edge to run Lambda functions with the lowest possible latency. As of April 2020,
+     there are 216 Points of Presence in 84 cities across 42 countries.
+
+6. what are the diffrent types of cloud based on service and deployement?
+ans: 	a.Public cloud
+	b.Private cloud
+	c.Hybrid cloud
+	d.Community cloud
+	
+a. Public Cloud
+	Public cloud infrastructure is entirely owned, managed, and maintained off-site via the internet 
+	by third-party service providers such as Amazon, Microsoft, or Google. With a public cloud, service
+	providers rent out their computing resources, like servers, storage, and applications, to various 
+	organizations, ensuring availability to anyone who wants to use or purchase them.
+
+	Public clouds are less expensive than private clouds since businesses don’t bear the costs of purchasing, 
+	managing, and maintaining the on-prem infrastructure. All of these tasks are the responsibility of the 
+	cloud service provider. Public cloud models typically use a flexible "pay as you grow" pricing model, 
+	making it an optimal solution for small to mid-sized businesses (SMBs).
+
+b. Private Cloud
+	Private cloud infrastructure is dedicated to a single organization or enterprise. The software and applications in
+	a private cloud are usually proprietary platforms tailored to meet the needs of the business. Private cloud 
+	architecture can be hosted and managed either internally by on-site staff or externally by a third-party service provider. 
+	It’s generally more costly for business owners to support their private cloud as they are responsible for setup and maintenance.
+
+	The main advantages of private clouds include greater control, privacy, and security. Private clouds are typically gated by a 
+	sophisticated firewall with access only granted to authorized personnel.
+
+c. Hybrid Cloud
+	As the name suggests, hybrid cloud infrastructure combines elements from private and public deployments, offering the robust 
+	security of a private cloud and the additional storage and cost-effectiveness of a public cloud. However, infrastructure is 
+	complex and requires highly technical expertise to install, manage, and maintain due to the evolving mix of public and private clouds.
+
+	A hybrid cloud is an optimal deployment option for industries that store sensitive information, such as healthcare, government, 
+	and finance. These regulated industries are often required to keep certain types of sensitive data on-premises while allowing less 
+	sensitive data to be stored in the cloud. With a hybrid cloud, companies have the flexibility of the public cloud for less regulated 
+	tasks and the security of the private cloud to ensure regulatory compliance.
+
+d. Community Cloud
+	Community clouds are shared by enterprises with common operational and regulatory concerns, such as trade associations, non-profits, 
+	and government agencies. A community cloud is a suitable deployment option for organizations that need a cost-effective way to collaborate 
+	on joint projects, applications, or research. Community clouds provide a cheaper alternative to private clouds since the operating and 
+	maintenance costs are divided among the cloud tenants. This model is hosted either on-site or off-site and owned by one or more organizations 
+	in the community or by a cloud services provider.
+
+7. Explain about global infrastructure?
+ans: The AWS Global Cloud Infrastructure is the most secure, extensive, and reliable cloud platform, offering over 200 fully featured services 
+     from data centers globally. Whether you need to deploy your application workloads across the globe in a single click, or you want to build 
+     and deploy specific applications closer to your end-users with single-digit millisecond latency, AWS provides you the cloud infrastructure 
+     where and when you need it.
+
+     With millions of active customers and tens of thousands of partners globally, AWS has the largest and most dynamic ecosystem. 
+     Customers across virtually every industry and of every size, including start-ups, enterprises, and public sector organizations, 
+     are running every imaginable use case on AWS.
+     The AWS Cloud spans 84 Availability Zones within 26 geographic regions around the world, with announced plans for 24 more 
+     Availability Zones and 8 more AWS Regions in Australia, Canada, India, Israel, New Zealand, Spain, Switzerland, and United Arab Emirates (UAE).
+
+	26 Launched Regions
+	Each with multiple Availability Zones (AZ’s)
+	84 Availability Zones
+
+	17 Local Zones
+
+	28 Wavelength Zones
+	For ultralow latency applications
+	8 Announced Regions
+
+	32 Announced Local Zones 
+
+	2x More Regions  
+
+	With multiple AZ’s than the next largest cloud provider
+	245 Countries and Territories Served
+	108 Direct Connect Locations
+	410+ Points of Presence
+
+	400+ Edge Locations and 13 Regional Edge Caches
+	Magic Quadrant for Cloud Infrastructure as a Service, Worldwide (2021)
